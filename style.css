@@ -12,14 +12,14 @@ h1,h2,h3 {
 }
 
 a {
-  color: #7DA789;
+  color: #7DA789 !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(100,100,100);
-  text-decoration: none;
-  font-size: 1.55em;
+  text-decoration: none !important;
+  color: rgb(100,100,100) !important;
+  font-size: 105%;
 }
 
 
@@ -47,6 +47,9 @@ a:hover {
   padding: 10px;
 }
 
+#esteem {}
+#career {}
+
 /*.inline {
   display:inline;
 }*/
@@ -60,12 +63,16 @@ a:hover {
   padding: 0px 10px;
 }
 
-.bigger-text {
-  font-size: 1.5em;
+.citation {
+  color: rgb(150,150,150);
+  font-size: 1.2em;
+  padding: 0px 50px;
 }
 
 
-
+#linked-in {
+  font-size: 2.8em;
+}
 
 
 #img-profile {
