@@ -22,6 +22,9 @@ a:hover {
   color: rgb(100,100,100) !important;
 }
 
+#home-link > a {
+  color: rgb(50,50,50) !important;
+}
 
 .card {
   background: white;
@@ -47,6 +50,41 @@ a:hover {
   padding: 10px;
 }
 
+.no-bullets {
+  list-style: none;
+  padding: 0px !important;
+}
+
+.two-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .two-column {
+  display: block;
+}
+
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 1.8em;
+}
+
+#google-scholar {
+  font-size: 2.2em;
+}
+
+#google-scholar-small {
+  font-size: 1.5em;
+}
 
 .list-inline {
     padding-left: 0;
@@ -63,9 +101,6 @@ a:hover {
 }
 
 
-#linked-in {
-  font-size: 2.8em;
-}
 
 
 #img-profile {

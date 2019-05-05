@@ -19,7 +19,7 @@
     <div class="navbar-wagon">
       <div class="navbar-wagon-left">
         <!-- Name -->
-        <p><a href="#">Michael A. Delichatsios</a></p>
+        <p id="home-link"><a href="#">Michael A. Delichatsios</a></p>
       </div>
 
       <!-- Right Navigation -->
@@ -34,7 +34,7 @@
         <a href="#education" class="navbar-wagon-item navbar-wagon-link">Education</a>
 
         <!-- Profile picture with dropdown list -->
-        <div class="navbar-wagon-item">
+        <!-- <div class="navbar-wagon-item">
           <div class="dropdown">
             <img src="images/michael_avatar.jpg" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
             <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
@@ -47,7 +47,7 @@
               <li><a href="#education">Education</a></li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- Dropdown appearing on mobile only -->
@@ -74,17 +74,39 @@
         <h1>Michael A. Delichatsios</h1>
         <h4>Fire Science, Combustion, Material Flammability, Fire Safety,  Risk Analysis.</h4>
         <h5>School of Built Environment, FireSERT, University of Ulster, BT37 0QB Northern Ireland</h5>
-        <p>Professor, Fire Dynamics and Flammability, Former Director of FireSERT, Senior Distinguished Research Fellow, University of Ulster, Howard Emmons Award IAFSS (International Association Fire Safety Science).</p>
+        <div>
+          <ul class="no-bullets">
+            <li><strong>2019 Affiliations</strong></li>
+            <li>Professor, Senior Distinguished Research Fellow</li>
+            <li>Ulster University, Fires and Material Flammability, Associate</li>
+            <li>Howard Emmons award IAFSS</li>
+            <li>Erskine Fellow, University of Canterbury, NZ</li>
+            <li>Northeastern University, USA (Visiting professor)</li>
+            <li>TUS, Japan (Visiting professor) </li>
+            <li>SKLFS, China (Visiting professor) </li>
+          </ul>
+        </div>
 
-        <ul class="list-inline">
-          <li><p><a href="https://scholar.google.co.uk/citations?user=zubsjSoAAAAJ" target="_blank">
-              <i class="ai ai-google-scholar-square ai-3x"></i></a></p></li>
-          <li><p id="linked-in"><a href="https://www.linkedin.com/in/michael-delichatsios-9460071/" target="_blank">
-              <i class="fab fa-linkedin"></i></a></p></li></li>
-        </ul>
+
+
+        <div class="contact-info">
+          <div class="padding-light"><a href=""><i class="fa fa-phone contact-icon" aria-hidden="true"></i>  +44 (0) 28 9335 0941</a></div>
+          <div class="padding-light"><a href=""><i class="fa fa-mobile contact-icon" aria-hidden="true"></i>  +1 617 401 5618</a></div>
+          <div class="padding-light"><a href="https://scholar.google.co.uk/citations?user=zubsjSoAAAAJ" target="_blank">
+              <i class="ai ai-google-scholar-square ai-3x" id="google-scholar"></i> Google Scholar</a></div>
+          <!-- <li><p id="linked-in"><a href="https://www.linkedin.com/in/michael-delichatsios-9460071/" target="_blank">
+              <i class="fab fa-linkedin"></i></a></p></li></li> -->
+        </div>
       </div>
       <div class="card text-center" id="esteem">
-        <h5><em>"Michael Delichatsios is recognized for unique contributions in all areas of fire research: pyrolysis, ignition, soot, radiation, spread, turbulence, pool, wind, enclosure, facade fires."</em></h5>
+        <div class="two-column">
+          <div>
+            <img src="images/negative_flame.png" class="img-rounded" width=300px>
+          </div>
+          <div class="padding-light">
+            <h5><em>"Michael Delichatsios is recognized for unique contributions in all areas of fire research: pyrolysis, ignition, soot, radiation, spread, turbulence, pool, wind, enclosure, facade fires."</em></h5>
+          </div>
+        </div>
       </div>
 
       <div class="card">
@@ -155,9 +177,8 @@
         <div class="text-center" id="publications"><a href="#">Back</a></div>
       </div>
       <div class="card" >
-        <h3 class="text-center">Nominee Recent Publications</h3>
+        <h3 class="text-center">Recent Publications</h3>
         <h5 class="text-center"><strong>130</strong> refereed papers, <strong>170+</strong> conference papers, editor of a book, contribution of chapters in books and recipient of <strong>two patents</strong>. </h5>
-        <h5 class="text-center">See <a href="https://scholar.google.co.uk/citations?user=zubsjSoAAAAJ" target="_blank">Google Scholar.</a></h5>
         <ol>
           <li>Experimental study and analysis on flame lengths induced by wall-attached fire impinging upon an inclined ceiling  X Zhang, L Hu, MA Delichatsios, J Zhang ,Proceedings of the Combustion Institute , 2018</li>
           <li>Pool fire flame base drag behavior with cross flow in a sub-atmospheric pressure, L Hu, X Zhang, MA Delichatsios, L Wu, C Kuang, Proceedings of the Combustion Institute 36 (2), 3105-3112, 2017</li>
@@ -176,6 +197,7 @@
           <li>A novel soot model for fires: validation in a laminar non-premixed flame, T Beji, JP Zhang, W Yao, M Delichatsios.., Combustion and Flame 158 (2), 281-290,2009</li>
           <li>Experimental and numerical study of the effects of nanoparticles on pyrolysis of a polyamide 6 (PA6) nanocomposite in the cone calorimeter, J Zhang, MA Delichatsios, S Bourbigot, Combustion and Flame 156 (11), 2056-2062,2009</li>
         </ol>
+        <p class="text-center"><strong>All publications can be found on<a href="https://scholar.google.co.uk/citations?user=zubsjSoAAAAJ" target="_blank"> Google Scholar   <i class="ai ai-google-scholar-square ai-3x" id="google-scholar-small"></i></a>.</strong></p>
         <div class="text-center" id="patents"><a href="#">Back</a></div>
       </div>
       <div class="card" >
