@@ -55,6 +55,12 @@ a:hover {
   padding: 0px !important;
 }
 
+.img-legend {
+  font-size: .7em;
+  font-weight: bold;
+  padding: 5px;
+}
+
 .two-column {
   display: flex;
   justify-content: center;
