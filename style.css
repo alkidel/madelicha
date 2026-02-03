@@ -201,3 +201,16 @@ a:hover {
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+.paper {
+  margin: 0 0 0.9rem 0;
+  line-height: 1.35;
+}
+
+.paper a {
+  text-decoration: none;
+}
+
+.paper a:hover {
+  text-decoration: underline;
+}
